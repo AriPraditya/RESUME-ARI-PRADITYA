@@ -15,9 +15,9 @@
   // Fill in your own links. Leave a value empty ("") and the button
   // will show a small "coming soon" message instead of a broken link.
   const SOCIALS = {
-    phone: '',      // e.g. 'tel:+62812xxxxxxx'
-    facebook: '',   // e.g. 'https://www.facebook.com/your.name'
-    instagram: ''   // e.g. 'https://www.instagram.com/your.name'
+    phone: 'https://wa.me/6285737857027',      // e.g. 'tel:+62812xxxxxxx'
+    facebook: 'https://www.facebook.com/praditya999',   // e.g. 'https://www.facebook.com/your.name'
+    instagram: 'https://www.instagram.com/ariprdtyaaa'   // e.g. 'https://www.instagram.com/your.name'
   };
 
   /* ---------- 2. Popup content ---------- */
