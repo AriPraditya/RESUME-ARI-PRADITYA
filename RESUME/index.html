@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I Made Ari Praditya, S.Kom | Portfolio</title>
+  <meta name="description" content="Portfolio of I Made Ari Praditya, S.Kom — Business Informatics graduate with an interest in accounting, administration, and data management.">
+  <meta name="theme-color" content="#03366b">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Figtree:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Decorative dots (top right) ===== -->
+  <div class="dots dots--cut-bl dots--corner" aria-hidden="true"></div>
+
+  <!-- ===== Navigation ===== -->
+  <header class="site-header">
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span>
+            <span></span>
+            <span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home" data-page="home" class="is-active">Home</a>
+      <a href="#about" data-page="about">About Me</a>
+      <a href="#education" data-page="education">Education</a>
+      <a href="#skills" data-page="skills">Skills &amp; Expertise</a>
+      <a href="#software" data-page="software">Software &amp; Tools</a>
+      <a href="#certificates" data-page="certificates">Certificates &amp; Training</a>
+      <a href="#contact" data-page="contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main card ===== -->
+  <main class="card" id="card">
+
+    <!-- 1. HOME -->
+    <section class="page page--home is-active" id="home" data-title="Home">
+      <div class="hero">
+        <div class="hero__text">
+          <h1 class="hero__name">I Made Ari Praditya, S.Kom</h1>
+          <p class="hero__role">Business Informatics Graduate</p>
+          <p class="hero__skills">Accounting | Administration | Data Management</p>
+          <p class="hero__intro">A detail-oriented graduate with an interest in accounting, administrative operations, and data management.</p>
+          <a href="#about" class="btn" data-go="about">Explore My Portfolio</a>
+        </div>
+
+        <div class="hero__media">
+          <div class="photo photo--hero">
+            <div class="dots dots--cut-br dots--hero" aria-hidden="true"></div>
+            <img src="assets/img/photo-home.JPEG" alt="Portrait of I Made Ari Praditya" width="312" height="366">
+          </div>
+        </div>
+      </div>
+      <p class="hero__location">Indonesia | Bali</p>
+    </section>
+
+    <!-- 2. ABOUT ME -->
+    <section class="page page--about" id="about" data-title="About Me" hidden>
+      <div class="split">
+        <div class="split__media">
+          <div class="photo">
+            <div class="dots dots--cut-br dots--photo" aria-hidden="true"></div>
+            <img src="assets/img/photo-about.JPEG" alt="I Made Ari Praditya wearing a graduation sash" width="314" height="366">
+          </div>
+        </div>
+
+        <div class="split__content">
+          <h2 class="title">About Me</h2>
+
+          <div class="panel panel--about">
+            <p>I am a graduate of Institut Bisnis dan Teknologi Indonesia (INSTIKI), majoring in Business Informatics with a concentration in Business Accounting.</p>
+            <p>I have an interest in accounting, administration, financial data processing, and information technology. Through my academic background and projects, I have developed an understanding of financial records, data management, and the use of technology to support business operations.</p>
+            <p>I am a disciplined, responsible, and detail-oriented person who is eager to learn and grow professionally.</p>
+          </div>
+
+          <div class="panel panel--strengths">
+            <h3>Personal Strengths</h3>
+            <ul>
+              <li>Responsible and disciplined</li>
+              <li>Detail-oriented</li>
+              <li>Adaptable and willing to learn</li>
+              <li>Able to work independently and in a team</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page__nav">
+        <button class="btn" type="button" data-dir="prev">Previous</button>
+        <button class="btn" type="button" data-dir="next">Next</button>
+      </div>
+    </section>
+
+    <!-- 3. EDUCATION -->
+    <section class="page page--education" id="education" data-title="Education" hidden>
+      <div class="dots dots--full dots--card" aria-hidden="true"></div>
+      <h2 class="title">Education</h2>
+
+      <div class="edu-grid">
+        <article class="panel panel--edu">
+          <h3>Institut Bisnis dan Teknologi Indonesia (INSTIKI)</h3>
+          <p>Bachelor's Degree in Business Informatics</p>
+          <p>Concentration: Business Accounting</p>
+          <p>Graduation Year: 2026</p>
+        </article>
+
+        <article class="panel panel--edu panel--focus">
+          <h3>Academic Focus</h3>
+          <ul>
+            <li>Financial Accounting</li>
+            <li>Business Administration</li>
+            <li>Financial Data Processing</li>
+            <li>Information Systems</li>
+            <li>Database Management</li>
+          </ul>
+        </article>
+      </div>
+
+      <p class="edu-summary">My educational background combines business knowledge, accounting principles, and information technology.</p>
+
+      <div class="page__nav">
+        <button class="btn" type="button" data-dir="prev">Previous</button>
+        <button class="btn" type="button" data-dir="next">Next</button>
+      </div>
+    </section>
+
+    <!-- 4. SKILLS & EXPERTISE -->
+    <section class="page page--skills" id="skills" data-title="Skills &amp; Expertise" hidden>
+      <div class="dots dots--full dots--card" aria-hidden="true"></div>
+      <h2 class="title title--caps">Skills &amp; Expertise</h2>
+
+      <div class="timeline">
+        <article class="timeline__item panel">
+          <h3>Accounting &amp; Finance</h3>
+          <p class="pipe-list"><span>Basic Financial Recording</span>
+            <span>Financial Data Processing</span>
+            <span>Basic Taxation Knowledge</span>
+            <span>Understanding of Financial Reports</span></p>
+        </article>
+        <article class="timeline__item panel">
+          <h3>Administration</h3>
+          <p class="pipe-list"><span>Document Management</span>
+            <span>Data Entry and Processing</span>
+            <span>Administrative Support</span></p>
+        </article>
+        <article class="timeline__item panel">
+          <h3>Technical Skills</h3>
+          <p class="pipe-list"><span>Microsoft Excel</span>
+            <span>Jurnal.id</span>
+            <span>Looker Studio</span>
+            <span>MySQL</span>
+            <span>Pentaho Data Integration</span></p>
+        </article>
+        <article class="timeline__item panel">
+          <h3>Soft Skills</h3>
+          <p class="pipe-list"><span>Attention to Detail</span>
+            <span>Time Management</span>
+            <span>Teamwork</span>
+            <span>Responsibility</span>
+            <span>Willingness to Learn</span></p>
+        </article>
+      </div>
+
+      <div class="page__nav">
+        <button class="btn" type="button" data-dir="prev">Previous</button>
+        <button class="btn" type="button" data-dir="next">Next</button>
+      </div>
+    </section>
+
+    <!-- 5. SOFTWARE & TOOLS -->
+    <section class="page page--software" id="software" data-title="Software &amp; Tools" hidden>
+      <div class="dots dots--full dots--card" aria-hidden="true"></div>
+      <h2 class="title">Software &amp; Tools</h2>
+
+      <div class="tools">
+        <button class="tool" type="button" data-tool="excel">
+          <span class="tool__logo"><img src="assets/img/tool-excel.png" alt="Microsoft Excel logo"></span>
+          <span class="tool__info">
+            <strong>Microsoft Excel</strong>
+            <span>Data processing, spreadsheet management, and financial calculations.</span>
+          </span>
+        </button>
+
+        <button class="tool" type="button" data-tool="jurnal">
+          <span class="tool__logo"><img src="assets/img/tool-jurnal.png" alt="Jurnal.id logo"></span>
+          <span class="tool__info">
+            <strong>Jurnal.id</strong>
+            <span>Basic accounting processes, including sales, purchases, and financial records.</span>
+          </span>
+        </button>
+
+        <button class="tool" type="button" data-tool="looker">
+          <span class="tool__logo"><img src="assets/img/tool-looker.png" alt="Looker Studio logo"></span>
+          <span class="tool__info">
+            <strong>Looker Studio</strong>
+            <span>Creating interactive dashboards and visualizing financial data.</span>
+          </span>
+        </button>
+
+        <button class="tool" type="button" data-tool="mysql">
+          <span class="tool__logo"><img src="assets/img/tool-mysql.png" alt="MySQL logo"></span>
+          <span class="tool__info">
+            <strong>MySQL</strong>
+            <span>Database management and data storage.</span>
+          </span>
+        </button>
+
+        <button class="tool tool--wide" type="button" data-tool="pentaho">
+          <span class="tool__logo"><img src="assets/img/tool-pentaho.png" alt="Pentaho logo"></span>
+          <span class="tool__info">
+            <strong>Pentaho Data Integration</strong>
+            <span>Data extraction, transformation, and loading (ETL).</span>
+          </span>
+        </button>
+      </div>
+
+      <div class="page__nav">
+        <button class="btn" type="button" data-dir="prev">Previous</button>
+        <button class="btn" type="button" data-dir="next">Next</button>
+      </div>
+    </section>
+
+    <!-- 6. CERTIFICATES & TRAINING -->
+    <section class="page page--certificates" id="certificates" data-title="Certificates &amp; Training" hidden>
+      <div class="dots dots--full dots--card" aria-hidden="true"></div>
+      <h2 class="title">Certificates &amp; Training</h2>
+
+      <div class="certs">
+        <button class="cert" type="button" data-cert="mos" style="--w: 224">
+          <span class="cert__thumb"><img src="assets/img/cert-mos.jpg" alt="Microsoft Office Specialist certificate"></span>
+          <span class="cert__info">
+            <strong>Microsoft Office Specialist (MOS)</strong>
+            <span>Excel Associate</span>
+          </span>
+        </button>
+
+        <button class="cert" type="button" data-cert="jurnal" style="--w: 245">
+          <span class="cert__thumb"><img src="assets/img/cert-jurnal.jpg" alt="Jurnal.id certificate of completion"></span>
+          <span class="cert__info">
+            <strong>Jurnal.id</strong>
+            <span>Basic accounting software and financial transaction management.</span>
+          </span>
+        </button>
+
+        <button class="cert cert--toeic" type="button" data-cert="toeic" style="--w: 172">
+          <span class="cert__thumb"><img src="assets/img/cert-toeic.jpg" alt="TOEIC score report"></span>
+          <span class="cert__info">
+            <strong>TOEIC</strong>
+            <span>English Proficiency Test – Score: 415</span>
+          </span>
+        </button>
+
+        <button class="cert" type="button" data-cert="taxation" style="--w: 271">
+          <span class="cert__thumb"><img src="assets/img/cert-taxation.jpg" alt="INSTIKI taxation training certificate"></span>
+          <span class="cert__info">
+            <strong>Taxation Training</strong>
+            <span>Participant in a basic taxation seminar covering tax planning and legal approaches to managing tax obligations in accordance with applicable regulations.</span>
+          </span>
+        </button>
+      </div>
+
+      <div class="page__nav">
+        <button class="btn" type="button" data-dir="prev">Previous</button>
+        <button class="btn" type="button" data-dir="next">Next</button>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT -->
+    <section class="page page--contact" id="contact" data-title="Contact" hidden>
+      <div class="split">
+        <div class="split__media">
+          <div class="photo">
+            <div class="dots dots--cut-br dots--photo" aria-hidden="true"></div>
+            <img src="assets/img/photo-contact.JPEG" alt="I Made Ari Praditya in graduation gown" width="314" height="366">
+          </div>
+        </div>
+
+        <div class="split__content split__content--contact">
+          <h2 class="title">Let’s Connect</h2>
+
+          <div class="contact-text">
+            <p>Thank you for taking the time to explore my portfolio.</p>
+            <p>I am always open to new opportunities, collaborations, and experiences across various fields. I look forward to connecting with people, sharing ideas, and contributing my skills while continuing to learn and grow.</p>
+
+            <div class="contact-card">
+              <p class="contact-card__name">I MADE ARI PRADITYA, S.Kom.</p>
+              <p class="contact-card__line">Email: <a href="mailto:madearipraditya@gmail.com">madearipraditya@gmail.com</a></p>
+              <p class="contact-card__line">Location: Tegallalang, Gianyar, Bali, Indonesia</p>
+            </div>
+
+            <p class="contact-text__closing">Let's create something meaningful together.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="page__nav">
+        <button class="btn" type="button" data-dir="prev">Previous</button>
+
+        <ul class="socials" aria-label="Social links">
+          <li>
+            <a href="https://wa.me/qr/AWEZDIXKKR4YI1?s=p" data-social="phone" aria-label="Phone">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.2 4.5 5.9 6.6c-1.5 1-2 2.9-1.3 4.6 3.2 7.6 8.9 13.3 16.5 16.4 1.7.7 3.6.2 4.6-1.3l2.1-3.3c.5-.8.3-1.8-.5-2.3l-4.6-3c-.7-.5-1.6-.4-2.2.2l-1.7 1.7c-3.2-1.5-5.8-4.1-7.2-7.3l1.7-1.7c.6-.6.7-1.5.2-2.2l-3-4.6c-.5-.7-1.5-.9-2.3-.4Z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:madearipraditya@gmail.com" data-social="email" aria-label="Email">
+              <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4 8.5C4 7.1 5.1 6 6.5 6H18.3a5.6 5.6 0 0 0 .4 2.8 5.6 5.6 0 0 0 8.3 2.6V23.5c0 1.4-1.1 2.5-2.5 2.5h-18A2.5 2.5 0 0 1 4 23.5v-15Zm3.3 2.2 8.2 6.1 6-4.5a5.6 5.6 0 0 1-1.7-1.6H7.9c-.3 0-.6.1-.6.3v-.3Z"/><circle cx="24.5" cy="7.5" r="3.5"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/share/1LSTqPhZcp/?mibextid=wwXIfr" data-social="facebook" aria-label="Facebook">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 28V17h3.6l.7-4.4h-4.3V9.9c0-1.3.6-2.3 2.4-2.3h2V3.8S22.2 3.5 20.6 3.5c-3.3 0-5.3 2-5.3 5.4v3.7H11.7V17h3.6v11"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/share/1LSTqPhZcp/?mibextid=wwXIfr" data-social="instagram" aria-label="Instagram">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="25" height="25" rx="7"/><circle cx="16" cy="16" r="5.8"/><circle cx="23.4" cy="8.6" r="1.1" fill="currentColor"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Popup (certificates & tools) ===== -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__dialog">
+      <button class="modal__close" type="button" aria-label="Close popup" data-close>&times;</button>
+      <div class="modal__media" id="modalMedia"></div>
+      <div class="modal__body">
+        <h3 id="modalTitle"></h3>
+        <p id="modalText"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Toast message ===== -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
